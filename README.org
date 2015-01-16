@@ -1,0 +1,16 @@
+#+CAPTION: Project Licence
+#+ATTR_HTML: :align center
+[[https://raw.githubusercontent.com/DomainDrivenConsulting/ormas/master/LICENCE][https://img.shields.io/badge/license-GPL_3-green.svg?dummy]]
+
+* Overview
+
+*Ormas* is an Order Management System written in C++.
+
+* Feedback
+
+If you have problems using Ormas or suggestions on how to improve it,
+please use the [[https://github.com/DomainDrivenConsulting/ormas/issues][github issues]].
+
+If you would like to submit a patch for inclusion, please fork us on
+github and submit a pull request. If you are unable to do so, please
+create an issue and append the patch to it.
