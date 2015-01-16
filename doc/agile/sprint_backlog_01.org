@@ -15,17 +15,55 @@ Create the infrastructure around Ormas.
 
 ** Active
 
-#+begin: clocktable :maxlevel 3 :scope subtree
-Clock summary at [2015-01-16 Fri 17:12]
 
-| Headline     | Time   |
-|--------------+--------|
-| *Total time* | *0:00* |
+#+begin: clocktable :maxlevel 3 :scope subtree
+Clock summary at [2015-01-16 Fri 17:26]
+
+| Headline                                    | Time   |      |      |
+|---------------------------------------------+--------+------+------|
+| *Total time*                                | *0:19* |      |      |
+|---------------------------------------------+--------+------+------|
+| Active                                      |        | 0:19 |      |
+| STARTED Sprint and product backlog grooming |        |      | 0:19 |
 #+end:
 
 *** STARTED Sprint and product backlog grooming                       :story:
-    CLOCK: [2015-01-16 Fri 17:01]
+    CLOCK: [2015-01-16 Fri 17:21]
+    CLOCK: [2015-01-16 Fri 17:01]--[2015-01-16 Fri 17:20] =>  0:19
 
 Updates to sprint and product backlog.
+
+*** Setup Vagrant                                                     :story:
+
+We need to be able to do a vagrant up and get an environment ready to
+build and run Ormas. For this we need to setup all of the required
+provisioning.
+
+*** Create a simple wt skeleton app                                   :story:
+
+We should create a really simple web app that serves whatever existing
+Ormas functionality we have. This will make testing easier.
+
+*** Add a skeleton c++ project that builds and runs                   :story:
+
+We need to create the basic CMake infrastructure and C++ code to be
+able to start a server. It doesn't have to do any thing special for
+now.
+
+*** Add a travis build                                                :story:
+
+We need to setup continuous integration.
+
+*** Create a gitter channel                                           :story:
+
+We need to setup gitter for Ormas.
+
+*** Add a description of the order types we need to support to manual :story:
+
+This needs to be complete enough for implementation.
+
+*** Create a dogen model for Ormas                                    :story:
+
+We need to integrate dogen with the build system.
 
 ** Deprecated
