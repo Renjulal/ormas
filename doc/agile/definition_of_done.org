@@ -1,0 +1,18 @@
+#+title: Definition of Done
+#+options: date:nil toc:nil author:nil num:nil
+
+* About
+
+This document defines what we consider to be the main milestone of
+Ormas; the point at which we can consider it "done". It won't ever be
+finished, of course, but we need to have a clear idea of when we
+consider it to be "good enough" or else we'll be refactoring
+forever. This will be release v1.0.
+
+* What do we need to achieve
+
+The following must be attained in order for it to be done:
+
+- We must support the following order types: XXX
+
+We need to have stories to implement these stories in the backlog.

@@ -1,0 +1,13 @@
+#+title: Product Backlog
+#+options: date:nil toc:nil author:nil num:nil
+#+tags: { story(s) epic(e) }
+
+* Stories
+
+** Active
+
+Stories that we intend to look at, at some point.
+
+** Deprecated
+
+Stories which we do not think we are going to work on.
